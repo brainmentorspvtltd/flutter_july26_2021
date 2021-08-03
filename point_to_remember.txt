@@ -1,0 +1,4 @@
+Points to Remember:
+Flutter layout engine has a few important limitations:
+1. A widget can decide its own size only within the constraints given to it by its parent. This means a widget usually can’t have any size it wants.
+2. A widget can’t know and does not decide its own position in the screen, since it’s the widget’s parent who decides the position of the widgets.
