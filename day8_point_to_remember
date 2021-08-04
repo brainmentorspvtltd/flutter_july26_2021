@@ -1,0 +1,36 @@
+Layout Widgets:
+
+
+Point to Remember:
+1. Row and Column are two of the most commonly used layouts pattern.
+2. Row and Column each take a list of child widgets.
+3.  A child widget can itself be a Row, Column or other Complex widget. 
+4. You can specify alignment of children.
+5. You can stretch or constrain specific child widgets.
+6. You can specify how child widgets use the Row’s or Columns’ available space.
+
+Always Parent widget decides the size and position of the Child. 
+
+
+Widgets Types.
+
+As we all know the flutter app consist of widgets only, these are broadly classified into tow types:
+
+1. Stateless widget
+2. Stateful widgets
+
+Stateless Widget:
+1. Stateless widgets are immutable.
+2. Its appearance and properties remain unchanged throughout the lifetime of the widget. 
+3. In simple words, Stateless widgets cannot change their state during the runtime of the app.
+4. which means the widgets cannot be redrawn while the app is in action.
+
+
+
+
+ 
+stateless Widget
+Icon()
+Container()
+Row()
+Column()
